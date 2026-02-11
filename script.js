@@ -14,7 +14,7 @@ let targetPosition = { left: null, top: null };
 // Original cute messages
 const noMessages = [
     "Are you sure? 🥺",
-    "Really? Think again! 💭",
+    "Really? Think again! 😫",
     "Please? Just give me a chance! 🙏"
 ];
 
@@ -64,7 +64,7 @@ noBtn.addEventListener('click', (e) => {
             noBtn.style.left = (noBtnRect.left - containerRect.left) + 'px';
             noBtn.style.top = (noBtnRect.top - containerRect.top) + 'px';
             
-            message.textContent = "You can't escape! Just say yes! 😄";
+            message.textContent = "You can't escape! Just say yes! 😊🫶🏻";
         }
     } else {
         message.textContent = "Nice try! 😜 Just say YES already!";
@@ -286,4 +286,5 @@ window.addEventListener('resize', function() {
 // Cleanup
 window.addEventListener('beforeunload', () => {
     if (moveTimeout) cancelAnimationFrame(moveTimeout);
+
 });
