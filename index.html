@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Will You Be My Valentine? 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Initial Question Screen – Milk and Mocha Hugging (Gifer – 100% embeddable) -->
+    <div id="question-screen" class="screen active">
+        <div class="container">
+            <h1 class="title">Will You Be My Valentine? 💝</h1>
+            <div class="gif-container">
+                <!-- ✅ WORKS EVERYWHERE – no hotlink blocking -->
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGx0c3JyZGRoaXVmNjZsNGNkbWw5djl2NWJ2MzNzOWpqcnpiZm9jNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sXv0vaA4331Ti/giphy.gif" 
+                     alt="Milk and Mocha bears hugging, please be my valentine" 
+                     class="cute-gif">
+            </div>
+            <div class="button-container">
+                <button id="yes-btn" class="btn yes-btn">Yes! 💖</button>
+                <button id="no-btn" class="btn no-btn">No</button>
+            </div>
+            <p id="message" class="message"></p>
+        </div>
+    </div>
+
+    <!-- Success Screen – Original bear celebration -->
+    <div id="success-screen" class="screen">
+        <div class="container">
+            <h1 class="title celebration">Yay! It's a Date! 🎉</h1>
+            <div class="hearts-container">
+                <div class="heart">💕</div>
+                <div class="heart">💖</div>
+                <div class="heart">💗</div>
+                <div class="heart">💓</div>
+                <div class="heart">💝</div>
+            </div>
+            <p class="success-message">I knew you'd say yes! 😊</p>
+            <p class="success-message">Get ready for the best Valentine's Day ever! 🌹</p>
+            <div class="gif-container">
+                <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" 
+                     alt="cute bear celebrating" 
+                     class="cute-gif">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
